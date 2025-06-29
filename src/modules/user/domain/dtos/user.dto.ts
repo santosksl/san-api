@@ -9,3 +9,7 @@ export interface IUserModelDTO {
 export interface IUserDTO {
     user: IUserModelDTO;
 }
+
+export interface IUserEmailDTO {
+    email: string;
+}
